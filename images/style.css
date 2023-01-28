@@ -1,0 +1,287 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  color: #212121;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --secondary-accent-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-footer-color: #2f303a;
+}
+/* header  */
+
+/* logo */
+.logo {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-item-header {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+/* навігація */
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+}
+
+.active-page {
+  color: var(--accent-color);
+}
+
+.nav-list-link:active {
+  color: var(--accent-color);
+}
+.nav-list-link:hover {
+  color: var(--accent-color);
+}
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* адреса в шапці*/
+
+.contact-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  text-decoration: none;
+}
+.contact-list-link:hover {
+  color: var(--accent-color);
+}
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* MAIN */
+
+/* блок герой */
+
+.hero {
+  background: #2f303a;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/* кнопка Замовити послугу */
+.hero-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* чим займаємося наші переваги */
+.preference-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.preference-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.discribe-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* наша команда */
+.team {
+  background: #f5f4fa;
+}
+
+.team-members {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-members-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+.contact-adress-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-adress-link:hover {
+  color: var(--accent-color);
+}
+.contact-adress-link:focus {
+  color: var(--accent-color);
+}
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.adress:hover {
+  color: var(--accent-color);
+}
+.adress:focus {
+  color: var(--accent-color);
+}
+
+.logo-item-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Portfolio */
+
+/* кнопки */
+
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background: #f5f4fa;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #2196f3;
+  color: #ffffff;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons:hover {
+  background: #2196f3;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttons:focus {
+  background: #2196f3;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+/* лінки портфоліо */
+.link {
+  text-decoration: none;
+}
+
+.link-name {
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  color: #212121;
+  text-decoration: none;
+}
+
+.link-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  background: var(--background-footer-color);
+}
+ul {
+  list-style: none;
+}
