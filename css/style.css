@@ -22,6 +22,11 @@ body {
   --secondary-text-color: #757575;
   --background-footer-color: #2f303a;
 }
+
+ul {
+  list-style: none;
+}
+
 /* header  */
 
 .container {
@@ -523,6 +528,4 @@ body {
 .footer {
   background: var(--background-footer-color);
 }
-ul {
-  list-style: none;
-}
+
