@@ -39,10 +39,11 @@ ul {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .page-header {
-  border-bottom: solid 1px;
-  color: #eeeeee;
+  border-bottom: solid 1px;color:#eeeeee;
+ 
 }
 .main-nav {
   display: flex;
@@ -159,7 +160,7 @@ ul {
   background: #2f303a;
   text-align: center;
   padding-bottom: 200px;
-  padding: top 200px;
+  padding-top:  200px;
 }
 
 .hero-text {
@@ -168,8 +169,8 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   margin-top: 0px;
-  margin-bottom: 30px;
-  padding-top: 200px;
+ padding-bottom: 30px;
+ 
 
   width: 696px;
   align-items: center;
@@ -201,7 +202,9 @@ ul {
 
   padding: 10px 32px;
 }
+ .container .item {
 
+ }
 /* чим займаємося наші переваги */
 
 .preference {
@@ -317,7 +320,7 @@ ul {
 } */
 
 .team-list-element {
-  border: solid 1px;
+  border: solid 2px;
   color: #eeeeee;
 }
 .team-members {
@@ -516,7 +519,7 @@ ul {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: solid 1px;
+  border: solid 2px;
   color: #eeeeee;
 }
 .section-list-element:nth-child(3n) {
